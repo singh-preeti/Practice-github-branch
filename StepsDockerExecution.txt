@@ -1,0 +1,20 @@
+Step 1: Create a application springboot based
+Step 2: Run that application
+Step 3: Right click to the app -> select new -> File -> Dockerfile ( 
+FROM openjdk:8-jdk-alpine
+ARG JAR_FILE=target/*.jar
+COPY ${JAR_FILE} amazon.jar
+ENTRYPOINT ["java","-jar","/amazon.jar"]) 
+
+click on finish 
+Step 4: Right click on app -> Run as -> maven install 
+ check target folder -> amazon.jar will appear
+
+Step 5: got to application directory select the address bar -> type cmd 
+ 1.Commands : to build the docker image 
+  docker build -t amazon-image .
+ 2.command to run the image 
+  docker  run -p 8080:8080 amazon-image
+
+Step 6: you can view the output 
+
