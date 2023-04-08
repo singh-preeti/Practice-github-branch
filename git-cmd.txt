@@ -1,0 +1,13 @@
+git init
+git add README.md
+git commit -m "first commit"
+git push -u " https://github.com/singh-preeti/Practice-github-branch.git" master
+
+git branch topics
+git checkout topics
+git remote add origin https://github.com/singh-preeti/Practice-github-branch.git
+git push 
+git push --set-upstream origin topics
+git add .
+git commit -m "second commit"
+git push
