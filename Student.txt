@@ -1,2 +1,5 @@
 Yesterday we discussed about basic sdlc and agile methods
 after that we did github 
+
+Today i will take CD part which will include Docker 
+and CI part for automatic integration which will done by jenkins
