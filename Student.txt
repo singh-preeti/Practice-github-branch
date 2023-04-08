@@ -1,0 +1,2 @@
+Yesterday we discussed about basic sdlc and agile methods
+after that we did github 
